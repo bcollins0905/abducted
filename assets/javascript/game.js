@@ -9,8 +9,7 @@ var answerArray = [];
 for (var i = 0; i < randWord.length; i++) {
  answerArray[i] = "_";
 }
-
-document.getElementById('answerArray').innerHTML
+document.write (answerArray)
 // This determines how many tries user gets 
 var wrongGuess = [];
 for (var j = 0; j < wrongGuess.length; j++ > 9){
